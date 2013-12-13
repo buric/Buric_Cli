@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Buric_Cli>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Buric_Cli>
+    </modules>
+</config>
