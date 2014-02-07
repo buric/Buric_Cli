@@ -46,6 +46,13 @@ class Buric_Cli_Helper_Data extends Mage_Core_Helper_Abstract
     );
 
     /*
+     * Check if currently command line environment
+     */
+    public function isCli() {
+        return php_sapi_name() === 'cli';
+    }
+
+    /*
      * Custom styling
      */
     public function puts($string, $styles = array()) {
